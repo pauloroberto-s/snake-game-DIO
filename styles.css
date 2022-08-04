@@ -1,3 +1,35 @@
-.body{
-    
+body{
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    color: rgb(52, 165, 52);
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: #111;
+}
+
+.footer .center{
+    padding: 5px;
+    font-size: 15px;
+    background: #151515;
+    text-align: center;
+}
+.footer .center span{
+    color: #656565;
+}
+.footer a{
+    color: rgb(52, 165, 52);
+    text-decoration: none;
+}
+
+p {
+    font-size: 70px;
 }
